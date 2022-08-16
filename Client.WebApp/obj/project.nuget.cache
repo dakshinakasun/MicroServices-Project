@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oT62PGfdqy3zetm+iFFdydMRbu5YPICKUpRe4HkA6StYJiv3/R3cBuCNbKh1nMn88EXLrbGKwXTt8Xa8bczWsA==",
+  "success": true,
+  "projectFilePath": "E:\\MTIT MS Lab\\MTIT.Microservices.WebApi\\Client.WebApp\\Client.WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daksh\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

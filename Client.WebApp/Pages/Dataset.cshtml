@@ -1,0 +1,46 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Data Set From Service";
+}
+<h1>@ViewData["Title"]</h1>
+<img src="https://www.acc.org//-/media/Non-Clinical/Images/2020/04/09/COVID-19-Palliative-1-1200x800.jpg" style="width:1200px;height:500px;" />
+<h2>Doctors List</h2>
+<ul>
+    @foreach (var item in ViewData["DoctorsList"] as IList<string>)
+    {
+        <li>
+            @item
+        </li>
+    }
+</ul>
+<br />
+<h2>Patienst List</h2>
+<ul>
+    @foreach (var item in ViewData["PatientsList"] as IList<string>)
+    {
+        <li>
+            @item
+        </li>
+    }
+</ul>
+<br />
+<h2>Medicines List</h2>
+<ul>
+    @foreach (var item in ViewData["MedicinesList"] as IList<string>)
+    {
+        <li>
+            @item
+        </li>
+    }
+</ul>
+<br />
+<h2>Prescriptions List</h2>
+<ul>
+    @foreach (var item in ViewData["PrescriptionsList"] as IList<string>)
+    {
+        <li>
+            Prescription ID : @item
+        </li>
+    }
+</ul>
